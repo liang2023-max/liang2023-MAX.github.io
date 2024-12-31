@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://liang2023-MAX.github.io</id>
+    <title>Microsoft与华为的老用户的资源站</title>
+    <updated>2024-12-31T14:07:20.474Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://liang2023-MAX.github.io"/>
+    <link rel="self" href="https://liang2023-MAX.github.io/atom.xml"/>
+    <subtitle>用来存放资源的网站</subtitle>
+    <logo>https://liang2023-MAX.github.io/images/avatar.png</logo>
+    <icon>https://liang2023-MAX.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, Microsoft与华为的老用户的资源站</rights>
+</feed>
