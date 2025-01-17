@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    Microsoft与华为的老用户的资源站
+    VMware软件资源 | Microsoft与华为的老用户的资源站
 </title>
 <link rel="shortcut icon" href="https://liang2023-MAX.github.io/favicon.ico?v=1735654038340">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -19,6 +19,14 @@
 <script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
+        
+            
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+                
+
+                    
+                            
 </head>
 
 <body>
@@ -109,17 +117,72 @@
     });
 </script>
 
-            
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            VMware软件资源
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2024-11-18</time>
+                            
+                        </div>
+                        
+                            <div class="post-feature-image" style="background-image: url('https://liang2023-MAX.github.io/post-images/html3.png')"></div>
+                            
+                                <div class="post-content">
+                                    <p>此处存放着VMware虚拟机的资源<br>
+链接：http://127.0.0.1:5244/d/123/1/VMware-workstation-17.5.2-23775571.exe?sign=eA-XatkDQs0lQrQSQTH6JGwDwBBQf7ebdEq5yy6bjPQ=:0</p>
 
-    <div class="archives-container main-container">
-        <ul class="timeline">
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                                <!-- id-card -->
+                                
+    <div class="id_card i-card">
+        <div class="id_card-avatar" style="background-image: url(https://liang2023-MAX.github.io/images/avatar.png?v=1735654038340)">
+        </div>
+        <h1 class="id_card-title">
+            Microsoft与华为的老用户的资源站
+        </h1>
+        <h2 class="id_card-description">
+            用来存放资源的网站
+        </h2>
+        <!--  -->
+        <div class="id_card-sns">
+            <!-- github -->
             
-        </ul>
+                    <!-- twitter -->
+                    
+                            <!-- weibo -->
+                            
+                                    <!-- facebook -->
+                                    
+
+        </div>
     </div>
+    
+                                    
 
-                
+                </div>
 
-                    <div class="site-footer">
+
+
+
+            </div>
+
+
+            <div class="site-footer">
   ©2024,Microsoft与华为的老用户所有。 | 
   <a class="rss" href="https://liang2023-MAX.github.io/atom.xml" target="_blank">RSS</a>
 </div>
@@ -128,7 +191,35 @@
   hljs.initHighlightingOnLoad()
 </script>
 
+
     </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+        
+            <script>
+    window.onload = function() {
+        var gitalk = new Gitalk({
+            clientID: 'Ov23liB8YXKFI6qzhWaI',
+            clientSecret: '51661a0d11a99ae250419291974102c14ec1bedd',
+            repo: 'liang2023-max.github.io',
+            owner: 'liang2023-max',
+            admin: ['liang2023-max'],
+            id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+            distractionFreeMode: false // Facebook-like distraction free mode
+        })
+
+        gitalk.render('gitalk-container')
+    }
+</script>
+                
+
+                    
+                                
 </body>
 
 </html>
